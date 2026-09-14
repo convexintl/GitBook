@@ -1,0 +1,57 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Halle S.15
+  structure:
+    - type: section
+      key: section-1
+      title: Product Docs
+      path: product-docs
+      default: true
+      children:
+        - type: space
+          key: space-1
+          title: Product Docs
+          path: product-docs
+          default: true
+          draft: true
+          content:
+            directory: ./product-docs
+    - type: section
+      key: section-2
+      title: Help Center
+      path: help-center
+      children:
+        - type: space
+          key: space-2
+          title: Help Center
+          path: help-center
+          default: true
+          draft: true
+          content:
+            directory: ./help-center
+    - type: section
+      key: section-3
+      title: Landing Page
+      path: landing-page
+      children:
+        - type: space
+          key: space-3
+          title: Landing Page
+          path: landing-page
+          default: true
+          draft: true
+          content:
+            directory: ./landing-page
+    - type: section
+      key: section-4
+      title: Untitled
+      path: untitled
+      children:
+        - type: space
+          key: space-4
+          title: Untitled
+          path: untitled
+          default: true
+          draft: true
+          content:
+            directory: ./untitled
